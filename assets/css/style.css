@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny:100,200,300,400,500,600,700|Josefin+Sans:100,200,300,400,500,600,700');
+
+/*COLORS*/
+
+.bg-home {
+    background-color: #A80000;
+}
+
+.bg-listen {
+    background-color: #D87800;
+}
+
+.bg-watch {
+    background-color: #186030;
+}
+
+.bg-book {
+    background-color: #D89000;
+}
+
+.bg-about {
+    background-color: #603000;
+}
+
+/*NAV BAR*/
+
+ul {
+    list-style-type: none;
+    Margin: 0;
+    padding: 0;
+}
+
+.menu-item i {
+    font-size: 28px;
+    display:inline-block;
+    margin: 0;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.menu-item span {
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+@media (max-width:767px) {
+    .menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    font-family: "Coiny", sans-serif;
+    }
+    
+    .menu-item i {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (min-width:768px) {
+    .menu-item {
+    width: 170px;
+    height: 76px;
+    font-family: "Coiny", sans-serif;
+    margin: 0;
+    white-space: nowrap;
+    padding: 24px 25px 0px 25px;
+    text-decoration: none;
+    transition-property: width, font-size;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    width: 75px;
+    font-size: 0px;
+    }
+    
+    .menu-item:hover {
+    width: 170px;
+    font-size: 14px;
+    }
+    
+    .vertical-bar {
+    width: 76px;
+    height: 100%;
+    position: fixed;
+    background-image:url(../images/flowers.png);
+    background-repeat: repeat;
+    background-color: #89009e;
+    }
+    
+    .menu-item span {
+        padding-left: 33px;
+    }
+}
