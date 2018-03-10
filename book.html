@@ -77,40 +77,40 @@
             <form class="form-style col-sm-10 col-sm-offset-1 col-md-9 col-md-offset-2">
                 <div class="form-group">
                     <label for="FirstName">First Name</label>
-                    <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                    <input type="text" class="form-control" id="firstname" placeholder="First Name" required>
                 </div>
                 <div class="form-group">
                     <label for="LastName">Surname</label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Surname">
+                    <input type="text" class="form-control" id="lastname" placeholder="Surname" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="e.g. john123@email.com">
+                    <input type="email" class="form-control" id="email" placeholder="e.g. john123@email.com" required>
                 </div>
                 <div class="form-group">
                     <label for="number">Number</label>
-                    <input type="tel" class="form-control" id="number" placeholder="07123456789">
+                    <input type="tel" class="form-control" id="number" placeholder="e.g. 07123456789">
                 </div>
                 <div class="form-group form-fix col-sm-6">
                     <label for="date">Date</label>
-                    <input type="date" class="form-control" id="date">
+                    <input type="date" class="form-control" id="date" required>
                 </div>
                 <div class="form-group">
                     <label for="time">Starting time</label>
-                    <input type="time" class="form-control form-half" id="date">
+                    <input type="time" class="form-control form-half" id="time" required>
                 </div>
                 <div class="form-group form-fix col-sm-6">
-                    <label for="time">Type of Event</label>
-                    <input list="event" class="form-control">
-                    <datalist id="event">
-                        <option value="Wedding"></option>
-                        <option value="Birthday"></option>
-                        <option value="Christmas Party"></option>
-                        <option value="News Year's Party"></option>
-                        <option value="School Reunion"></option>
-                        <option value="Charity"></option>
-                        <option value="Other"></option>
-                    </datalist>
+                    <label for="event">Type of Event</label>
+                    <select list="event" class="form-control" id="event" required>
+                        <option selected disabled>Please choose below</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Christmas Party">Christmas Party</option>
+                        <option value="News Year's Party">News Year's Party</option>
+                        <option value="School Reunion">School Reunion</option>
+                        <option value="Charity">Charity</option>
+                        <option value="Other">Other</option>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label for="other">If other, please state:</label>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="checkbox">
                     <label>
-                      <input type="checkbox" checked class="checkbox"> Keep me up to date with Monkees News!
+                      <input type="checkbox" id="check" checked class="checkbox"> Keep me up to date with Monkees News!
                     </label>
                 </div>
                 <button type="submit" class="btn">Send Enquiry</button>

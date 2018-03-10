@@ -45,6 +45,7 @@
 .side-image {
     width: 100%;
     margin-top: 30%;
+    border-radius: 50%;
 }
 
 .logo {
@@ -378,6 +379,7 @@ td {
 }
 
 .form-style input,
+.form-style select,
 .checkbox {
     font-family: "Josefin Sans", sans-serif;
     color: #D87800;
@@ -625,6 +627,10 @@ td {
 
     .table {
         width: 90%;
+    }
+    
+    .small-print {
+        margin-right: 2%;
     }
 
     .band-bg {
