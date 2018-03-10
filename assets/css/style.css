@@ -366,6 +366,10 @@ td {
 
 /*BOOK*/
 
+.booking-section {
+    padding-bottom: 40px;
+}
+
 .booking-enquiry {
     font-family: "Josefin Sans", sans-serif;
     color: #D87800;
@@ -375,7 +379,7 @@ td {
     font-family: "Coiny", sans-serif;
     color: #A80000;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .form-style input,
