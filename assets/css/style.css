@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Coiny:100,200,300,400,500,600,700|Josefin+Sans:100,200,300,400,500,600,700');
 
-.inline-block {
-    display: inline-block;
-}
-
 /*COLORS*/
 
 .bg-home {
@@ -30,14 +26,13 @@
     background-color: #343434;
 }
 
-.bg-section {
+.bg-section-content {
     background-color: #fafae6;
     background-clip: padding-box;
 }
 
-.bg-news-reviews {
-    background-color: #e5e5d7;
-    background-clip: padding-box;
+.bg-section {
+    background-color: #c5ca54;
 }
 
 /*HEADER*/
@@ -47,17 +42,15 @@
     background-attachment: fixed;
 }
 
-.flowers {
-    height: 106%;
-    width: 125%;
-    margin-top: 67px;
+.side-image {
+    width: 100%;
+    margin-top: 30%;
 }
 
 .logo {
     height: 50%;
     width: 100%;
-    margin-left: 20px;
-    margin: 20px 0;
+    margin: 8% 0;
 }
 
 .band {
@@ -105,7 +98,7 @@ ul {
 
 /*NEWS*/
 
-.section-heading {
+.section-header {
     font-family: "Coiny", sans-serif;
     font-size: 45px;
     font-weight: 400;
@@ -113,13 +106,14 @@ ul {
     padding: 10px 15px;
     margin: 20px 0px 20px;
     background-color: #A80000;
+    border-radius: 20px;
 }
 
 .hr-adjust {
     border: none;
     height: 2px;
     background-color: #fafafa;
-    margin: -1px 0;
+    margin: 2px 0;
 }
 
 .move-left {
@@ -141,6 +135,7 @@ ul {
     color: #A80000;
     text-decoration: underline;
     margin: 0 0 10px;
+    font-size: 28px;
 }
 
 .news-sub-heading {
@@ -173,10 +168,7 @@ ul {
     margin-top: 20px;
 }
 
-.news-heading {
-    font-size: 28px;
-    text-decoration: underline;
-}
+.news-heading {}
 
 .news-sub-heading {
     font-size: 22px;
@@ -196,21 +188,8 @@ ul {
 
 /*REVIEWS*/
 
-.aside-heading {
-    font-family: "Coiny", sans-serif;
-    font-size: 45px;
-    font-weight: 400;
-    color: #fafafa;
-    padding: 10px 15px;
-    margin: 20px 0px 20px;
+.reviews-header {
     background-color: #D87800;
-}
-
-.reviews-heading {
-    font-family: "Coiny", sans-serif;
-    color: #D87800;
-    text-decoration: underline;
-    margin: 0 0 10px;
 }
 
 .reviews-section {
@@ -254,6 +233,8 @@ ul {
     margin-top: 8px;
 }
 
+/*FOOTER*/
+
 .footer {
     background-color: #525252;
     color: #fafafa;
@@ -295,20 +276,141 @@ ul {
     -o-transition: all 0.35s ease-in-out;
 }
 
+/*LISTEN*/
+
+.column-headings {
+    pointer-events: none;
+}
+
+.column-headings th {
+    text-align: center;
+    font-family: "Coiny", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #A80000;
+    vertical-align: text-top;
+}
+
+.row-style {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #D87800;
+    font-weight: 600;
+}
+
+.table {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.table-hover tbody tr:hover td {
+    background-color: #efefd3;
+}
+
+tr,
+th,
+td {
+    border: 3px solid #A80000;
+}
+
+.social-plug-header {
+    font-family: "Coiny", sans-serif;
+    color: #A80000;
+    font-weight: 400;
+}
+
+.social-plug {
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #D87800;
+    margin-bottom: 40px;
+}
+
+.social-plug i {
+    font-size: 28px;
+}
+
+.social-plug a {
+    display: inline-block;
+    text-decoration: none;
+    color: #D87800;
+    transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+}
+
+.small-print {
+    font-family: "Josefin Sans", sans-serif;
+    color: #A80000;
+    margin-bottom: 0;
+}
+
+/*WATCH*/
+
+.video {
+    width: 100%;
+}
+
+.speaker {
+    width: 100%;
+}
+
+.video-title h2 {
+    font-family: "Coiny", sans-serif;
+    color: #A80000;
+    font-weight: 400;
+}
+
+/*BOOK*/
+
+.booking-enquiry {
+    font-family: "Josefin Sans", sans-serif;
+    color: #D87800;
+}
+
+.form-style {
+    font-family: "Coiny", sans-serif;
+    color: #A80000;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.form-style input,
+.checkbox {
+    font-family: "Josefin Sans", sans-serif;
+    color: #D87800;
+}
+
+.form-style .btn {
+    color: #fafafa;
+    background-color: #D87800;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+}
+
 /*MEDIA QUERIES*/
 
 @media (max-width: 767px) {
 
-    .band-bg {
-        background-image: none;
+    .band {
+        width: 90%;
     }
-    
     .footer-border {
         border-top: 3px solid #3f3e3e;
     }
+    
+    .form-fix {
+        padding: 0;
+    }
 }
-
-
 
 @media (min-width: 768px) {
 
@@ -338,14 +440,22 @@ ul {
         background-attachment: scroll;
         background-position: top left;
     }
-    
+
     .footer-border {
         border-left: 3px solid #3f3e3e;
         min-height: 105.2px;
     }
-    
+
     .footer {
         padding-bottom: 0px;
+    }
+
+    .form-half {
+        width: 50%;
+    }
+
+    .form-fix {
+        padding-left: 0;
     }
 }
 
@@ -437,21 +547,33 @@ ul {
     }
 
     .review a:hover,
-    .footer a:hover {
+    .footer a:hover,
+    .social-plug a:hover {
         color: #A80000;
         font-weight: 500;
         text-decoration: none;
     }
-    
+
     .social-links li a i:hover {
         background-color: #A80000;
     }
 
-    .news-section {
-        margin-left: 10%;
-    }
-    
     .reviews-section {
         margin-left: 4%;
+    }
+
+    .table {
+        width: 90%;
+    }
+
+    .band-bg {
+        width: 60%;
+        display: block;
+        margin-left: 24%;
+    }
+
+    .form-style .btn:hover {
+        background-color: #A80000;
+        font-weight: 500;
     }
 }

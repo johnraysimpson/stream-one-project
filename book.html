@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Monkees|Book Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="header-bg col-sm-12">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-9 col-md-offset-2 header-heading">
+                            <div class="col-sm-3 hidden-xs">
+                                <img class="side-image" src="assets/images/disco-ball.png" alt="Disco Ball"></img>
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="logo" src="assets/images/monkees-header.png" alt="Monkees"></img>
+                            </div>
+                            <div class="col-sm-3 hidden-xs">
+                                <img class="side-image" src="assets/images/disco-ball.png" alt="Disco Ball"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row vertical-bar">
+                        <nav>
+                            <div>
+                                <ul>
+                                    <li class="col-xs-6 col-sm-6 menu-item bg-home">
+                                        <a href="index.html"><i class="fa fa-home"></i><span>Home</span></a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-6 menu-item bg-listen">
+                                        <a href="listen.html"><i class="fa fa-music"></i><span>Listen</span></a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4 menu-item bg-watch">
+                                        <a href="watch.html"><i class="fa fa-film"></i><span>Watch</span></a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4 menu-item bg-book">
+                                        <a href="book.html"><i class="fa fa-calendar"></i><span>Book Us</span></a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4 menu-item bg-about">
+                                        <a href="about.html"><i class="fa fa-question-circle-o"></i><span>About Us</span></a>
+                                    </li>
+                                    <li class="hidden-xs hidden-sm col-sm-4 menu-item-break bg-break">
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row col-sm-10 col-sm-offset-1 col-md-9 col-md-offset-2 band-bg">
+                            <img class="band" src="assets/images/booking.jpg" alt="Booking"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bg-section">
+        <div class="container-fluid">
+            <div class="row col-md-9 col-md-offset-2">
+                <h1 class="section-header text-center"><i class="fa fa-calendar"></i> Book Us
+                    <hr class="hr-adjust">
+                </h1>
+            </div>
+            <div class="row col-md-9 col-md-offset-2">
+                <h3 class="booking-enquiry text-center">Once you send, we will respond to you if we are available and give you a quote</h3>
+            </div>
+            <form class="form-style col-sm-10 col-sm-offset-1 col-md-9 col-md-offset-2">
+                <div class="form-group">
+                    <label for="FirstName">First Name</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <label for="LastName">Surname</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Surname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="e.g. john123@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="number">Number</label>
+                    <input type="tel" class="form-control" id="number" placeholder="07123456789">
+                </div>
+                <div class="form-group form-fix col-sm-6">
+                    <label for="date">Date</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <div class="form-group">
+                    <label for="time">Starting time</label>
+                    <input type="time" class="form-control form-half" id="date">
+                </div>
+                <div class="form-group form-fix col-sm-6">
+                    <label for="time">Type of Event</label>
+                    <input list="event" class="form-control">
+                    <datalist id="event">
+                        <option value="Wedding"></option>
+                        <option value="Birthday"></option>
+                        <option value="Christmas Party"></option>
+                        <option value="News Year's Party"></option>
+                        <option value="School Reunion"></option>
+                        <option value="Charity"></option>
+                        <option value="Other"></option>
+                    </datalist>
+                </div>
+                <div class="form-group">
+                    <label for="other">If other, please state:</label>
+                    <input type="text" class="form-control form-half" id="EventOther" placeholder="Other">
+                </div>
+                <div class="checkbox">
+                    <label>
+      <input type="checkbox" checked class="checkbox"> Keep me up to date with Monkees News!
+    </label>
+                </div>
+                <button type="submit" class="btn">Send Enquiry</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer container-fluid">
+        <div class="row row-table text-center">
+            <div class="col-md-4 col-md-offset-1 col-sm-5">
+                <h5>About us</h5>
+                <p>1960s rock band with over 50 years experience performing globally. Available to book for weddings, Christmas parties and other events</p>
+            </div>
+            <div class="footer-border col-sm-3">
+                <h5>Interested in booking us?</h5>
+                <p>Click <a href="book.html">here</a> to enquire</p>
+            </div>
+            <div class="footer-border col-sm-4">
+                <h5>Follow us!</h5>
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="https://www.facebook.com/TheMonkees"><i class="fa fa-facebook" aria-hidden=true></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/monkeesofficial"><i class="fa fa-twitter" aria-hidden=true></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube" aria-hidden=true></i></a></li>
+                    <li><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify" aria-hidden=true></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
