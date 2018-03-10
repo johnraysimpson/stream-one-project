@@ -16,8 +16,6 @@ Also, the band would like to use the site to showcase their music and publicise 
 
 The band has provided you, the developer, with the following assets that they would like to showcase on their website:
 
--Photos of the band members
--A video clip
--Audio clips
+Photos of the band members, a video clip, audio clips
 
 Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
