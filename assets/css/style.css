@@ -54,14 +54,14 @@
     margin: 8% 0;
 }
 
-.band {
+.main-image {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.band-bg {
+.main-image-bg {
     border-radius: 70px;
     padding: 0;
     margin-top: 20px;
@@ -69,10 +69,6 @@
 }
 
 /*NAV BAR*/
-
-nav-fix {
-    padding-right: 0;
-}
 
 ul {
     list-style-type: none;
@@ -142,7 +138,7 @@ ul {
 .news-sub-heading {
     font-family: "Josefin Sans", sans-serif;
     color: #676767;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -167,12 +163,6 @@ ul {
 .read-story a {
     text-decoration: none;
     margin-top: 20px;
-}
-
-.news-heading {}
-
-.news-sub-heading {
-    font-size: 22px;
 }
 
 .news-section {
@@ -230,6 +220,10 @@ ul {
     -o-transition: all 0.35s ease-in;
 }
 
+blockquote footer {
+    margin-top: 8px;
+}
+
 .review-link {
     margin-top: 8px;
 }
@@ -278,10 +272,6 @@ ul {
 }
 
 /*LISTEN*/
-
-.column-headings {
-    pointer-events: none;
-}
 
 .column-headings th {
     text-align: center;
@@ -446,9 +436,11 @@ td {
 
 @media (max-width: 767px) {
 
-    .band {
+    .main-image {
         width: 90%;
     }
+    
+    
     .footer-border {
         border-top: 3px solid #3f3e3e;
     }
@@ -489,7 +481,7 @@ td {
         border: 5px dotted #A80000;
     }
 
-    .band-bg {
+    .main-image-bg {
         background-image: url(../images/different-flowers.png);
         background-size: 155px;
         background-clip: content-box;
@@ -529,9 +521,9 @@ td {
 
 
 @media (max-width: 991px) {
+   
     .menu-item span {
         display: block;
-        width: 100%;
         padding-top: 5px;
         text-align: center;
     }
@@ -545,17 +537,6 @@ td {
         text-align: center;
         display: block;
         padding-top: 8px;
-        text-decoration: none;
-        width: 100%;
-    }
-
-    .logo {
-        padding-right: 18px;
-        margin-left: 0;
-    }
-
-    .flowers {
-        margin-left: -10px;
     }
 }
 
@@ -564,18 +545,16 @@ td {
 @media (min-width: 992px) {
 
     .menu-item {
-        width: 170px;
         height: 66px;
         padding-left: 0;
         white-space: nowrap;
+        width: 66px;
+        font-size: 0px;
         transition: all 0.2s ease-in-out;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
-        width: 66px;
-        font-size: 0px;
-        border-top-right-radius: 0;
-        border-radius: 0;
+        
     }
     
     .menu-item a {
@@ -604,7 +583,7 @@ td {
         margin-left: -15px;
         background-image: url(../images/different-flowers.png);
         background-repeat: repeat;
-        z-index: 2;
+        z-index: 1;
         box-shadow: -7px 0px 15px 15px rgba(0, 0, 0, 0.75);
     }
 
@@ -642,7 +621,7 @@ td {
         margin-right: 2%;
     }
 
-    .band-bg {
+    .main-image-bg {
         width: 60%;
         display: block;
         margin-left: 24%;
