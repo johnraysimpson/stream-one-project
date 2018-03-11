@@ -566,8 +566,8 @@ td {
     .menu-item {
         width: 170px;
         height: 66px;
+        padding-left: 0;
         white-space: nowrap;
-        padding: 19px 0px 0px 19px;
         transition: all 0.2s ease-in-out;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
@@ -576,6 +576,11 @@ td {
         font-size: 0px;
         border-top-right-radius: 0;
         border-radius: 0;
+    }
+    
+    .menu-item a {
+        padding-top: 19px;
+        padding-left: 19px;
     }
 
     .menu-item-break {
@@ -590,7 +595,7 @@ td {
         border-bottom-right-radius: 37.5px;
         box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.75);
     }
-
+    
     .vertical-bar {
         width: 66px;
         height: 100%;
