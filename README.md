@@ -59,7 +59,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ### Content
 
-* The information on the About pagewas lifted from the Wikipedia pages of the band and the members.
+* The information on the About page was lifted from the Wikipedia pages of the band and the members.
 
 ### Media
 
